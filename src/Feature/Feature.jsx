@@ -3,7 +3,11 @@ import { RiCheckboxCircleFill } from "react-icons/ri";
 const Feature = ({feature}) => {
     return (
         <div>
-            <p className=" flex m-3"><RiCheckboxCircleFill className='text-green-400'></RiCheckboxCircleFill> {feature} </p>
+          <div>
+          <p className=" flex m-3"><RiCheckboxCircleFill className='text-green-400'>
+                </RiCheckboxCircleFill> {feature} </p>
+          </div>
+        
         </div>
     );
 };
