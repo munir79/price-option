@@ -1,13 +1,18 @@
 
 import './App.css'
+import RouteNav from './RouteNav/RouteNav'
+import NavBar from './Component/DaisyNAv/NavBar'
+import PriceOption from './Price/PriceOption'
 
 function App() {
 
 
   return (
     <>
-    
-      <h1 className='text-4xl'>Vite + React</h1>
+   
+    <RouteNav></RouteNav>
+    {/* <NavBar></NavBar> */}
+    <PriceOption></PriceOption>
     
     </>
   )
